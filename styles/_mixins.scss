@@ -1,0 +1,9 @@
+
+@mixin flexNav($centraritems){
+    display: flex;
+    justify-content:space-around;
+    align-items: $centraritems;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
